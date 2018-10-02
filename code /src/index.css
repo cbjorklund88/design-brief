@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Permanent+Marker');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  padding-left: 220px;
+  padding-right: 220px;
+  height: 75px;
+  border-bottom: 1px solid #B4B9C1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar a {
+  font-family: 'Lucida Grande';
+  font-size: 13px;
+  text-decoration: none;
+  color: #B4B9C1;
+
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-family: 'Lora', serif;
+  font-size: 42px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #B4B9C1;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 40px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  font-family: 'Lucida Grande';
+  color:#7e7e7e;
+  line-height: 22px;
+
+}
+.hero-image {
+  padding-left: 100px;
+}
+
+.hero-image img {
+  height: 320px;
+}
+
+button {
+  font-family: 'Lucida Grande';
+}
+
+.button-navbar {
+  color: #ffff;
+  background-color: #01a87c;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  border-color: #01a87c;
+}
+
+.buttonBlack {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+.buttonWhite {
+  margin: 40 0;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 30px;
+  padding: 10px 20px 10px 20px;
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.article1, .article2, .article3, .article4 {
+  display: flex;
+  flex-direction: row;
+  width: 488px;
+  height: 255px;
+  border: 1px solid #B4B9C1;
+  margin: 5px;
+
+}
+.article-image {
+  width: 200px;
+  object-fit: cover;
+}
+
+.article-text {
+  font-family: 'Lucida Grande';
+  padding: 16px;
+  display: flex;
+  flex-flow: column;
+}
+
+.article-text p {
+  font-size: 12px;
+  line-height: 20px;
+  color: #7e7e7e;
+}
+
+.article-text h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.writerInfoAll {
+  display: flex;
+  flex: 1 1;
+}
+
+.writerInfo {
+  display: flex;
+  flex: 1 1;
+}
+
+.writerInfo img {
+  border-radius: 40px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.writer-text{
+  display: flex;
+  align-self: flex-end;
+  flex-flow: column;
+  margin-top: 20px;
+  flex: 1 1;
+}
+
+.writer-text p{
+  font-size: 10px;
+  margin: 0;
+  color:#7e7e7e;
+}
+
+.writer-text h6 {
+  font-size: 11px;
+  margin: 0;
+}
+
+.bookmark-icon{
+  display: flex;
+}
+
+.bookmark-icon img {
+  width: 11px;
+  height: 17px;
+}
